@@ -56,28 +56,28 @@ Key Features:
 git clone https://github.com/yourusername/VendingMachine-FPGA-Arduino.git
 cd VendingMachine-FPGA-Arduino
 
-### **2️⃣ Hardware Setup
+### **2️⃣ Hardware Setup**
 -Connect Arduino to FPGA via UART.
 -Wire push buttons for coin insertion & selection.
 -Ensure LCD & 7-segment display are properly connected.
 
-### **3️⃣ Upload Arduino Code
+### **3️⃣ Upload Arduino Code**
 # Open Arduino IDE
 # Select Arduino Uno Board
 # Upload the arduino_vending.ino file
 
-4️⃣ Synthesize & Load FPGA Code
+### **4️⃣ Synthesize & Load FPGA Code**
 # Open Vivado
 # Import Verilog files
 # Run Synthesis & Bitstream Generation
 # Program Basys3 FPGA
 
-📸 Demonstration
+##**📸 Demonstration**
 📹 A video demonstration is included in media/.
 🖼️ System images are stored in images/.
 📄 The project report, presentation, and poster are available in docs/.
 
-📂 Project Structure
+##**📂 Project Structure**
 📂 VendingMachine-FPGA-Arduino
 │── 📂 src                # Source code (Verilog & Arduino)
 │── 📂 images             # System setup and demo images
@@ -86,12 +86,12 @@ cd VendingMachine-FPGA-Arduino
 │── 📄 README.md          # Project description
 │── 📄 LICENSE            # Open-source license
 
-🚀 Future Improvements
+##**🚀 Future Improvements**
 🔹 RFID/NFC Payment Support – Enable cashless transactions.
 🔹 Touchscreen Interface – Replace buttons with an interactive UI.
 🔹 Expanded Product Catalog – Increase vending machine flexibility.
 
 👨‍💻 Contributors
-Name	Role
-Your Name	FPGA & Embedded Systems Engineer
+
+Daniel Ram - FPGA & Embedded Systems Engineer
 📩 Feel free to reach out via GitHub Issues for inquiries or contributions.
